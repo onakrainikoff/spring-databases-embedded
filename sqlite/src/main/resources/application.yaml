@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    driverClassName: org.sqlite.JDBC
+    url: 'jdbc:sqlite:./target/test.db'
+    username: sa
+    password: sa
+  jpa:
+    database-platform: org.hibernate.community.dialect.SQLiteDialect
+  flyway:
+    enabled: true

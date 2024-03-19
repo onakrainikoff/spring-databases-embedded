@@ -1,0 +1,8 @@
+spring:
+  datasource:
+    driver-class-name: org.hsqldb.jdbc.JDBCDriver
+    url: 'jdbc:hsqldb:file:./target/testdb'
+    username: sa
+    password:
+  flyway:
+    enabled: true
